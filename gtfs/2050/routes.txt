@@ -1,346 +1,348 @@
-route_id,agency_id,route_short_name,route_long_name,route_type,route_color,route_text_color
-04663955,1,SEA1002,Streetcar - First Hill Revised,0,AD0101,ffffff
-6d393241,1,SEA1003,Streetcar - SLU Revised,0,AD0101,ffffff
-9fda70a6,1,SEA1004,Streetcar - Uptown,0,AD0101,ffffff
-453535a2,1,KCM1002,1002,3,C9500E,ffffff
-3713de4d,1,KCM1005,1005,3,C9500E,ffffff
-374a5eba,1,KCM1006,1006,3,C9500E,ffffff
-5e4b8d81,1,KCM1007,1007,3,C9500E,ffffff
-25112c9b,1,KCM101,101,3,D0BE25,ffffff
-f0df7cac,1,KCM1018,1018,3,C9500E,ffffff
-b26161b8,1,KCM1019,1019,3,C9500E,ffffff
-ab7acd95,1,KCM1025,1025,3,C9500E,ffffff
-afff8bcf,1,KCM1026,1026,3,C9500E,ffffff
-6ad0dd14,1,KCM1031,1031,3,C9500E,ffffff
-94880311,1,KCM1037,1037,3,C9500E,ffffff
-b5d4d69d,1,KCM1039,1039,3,C9500E,ffffff
-3754b2e0,1,KCM1040,1040,3,C9500E,ffffff
-d09a8a98,1,KCM1042,1042,3,C9500E,ffffff
-3a8a89aa,1,KCM1046,1046,3,C9500E,ffffff
-150d941c,1,KCM1068,1068,3,C9500E,ffffff
-599892de,1,KCM1074,1074,3,C9500E,ffffff
-ad29b9ce,1,KCM1075,1075,3,C9500E,ffffff
-ab921550,1,KCM1083,1083,3,C9500E,ffffff
-096746d6,1,KCM1085,1085,3,C9500E,ffffff
-7e669bf1,1,KCM1088,1088,3,C9500E,ffffff
-a6225536,1,KCM1213,1213,3,C9500E,ffffff
-467ac73e,1,KCM1214,1214,3,C9500E,ffffff
-bfd87d5b,1,KCM1215,1215,3,C9500E,ffffff
-456559c0,1,KCM1220,1220,3,C9500E,ffffff
-80ac67af,1,KCM1501,1501,3,C9500E,ffffff
-1c6e60bd,1,KCM1505,1505,3,C9500E,ffffff
-ca929ef4,1,KCM1511,1511,3,C9500E,ffffff
-af26f8f8,1,KCM1512,1512,3,C9500E,ffffff
-ebe59c36,1,KCM1513,1513,3,C9500E,ffffff
-268a3582,1,KCM1514,1514,3,C9500E,ffffff
-730987f5,1,KCM1515,1515,3,C9500E,ffffff
-774419c1,1,KCM162,162,3,066A40,ffffff
-72ee2755,1,KCM1994,1994,3,C9500E,ffffff
-b563ed01,1,KCM1997,1997,3,C9500E,ffffff
-3a72a82c,1,KCM1998,1998,3,C9500E,ffffff
-575b7cc9,1,KCM2003,2003,3,066A40,ffffff
-86a5c201,1,KCM2012,2012,3,066A40,ffffff
-30d1f9cb,1,KCM2016,2016,3,066A40,ffffff
-dfd36351,1,KCM2020,2020,3,066A40,ffffff
-be7ab5f1,1,KCM2021,S,3,066A40,ffffff
-d586b0c5,1,KCM2021,N,3,066A40,ffffff
-5b3fcc06,1,KCM2022,2022,3,066A40,ffffff
-09d04fb6,1,KCM2028,2028,3,066A40,ffffff
-0fba818c,1,KCM2203,2203,3,066A40,ffffff
-619bb5a8,1,KCM2204,2204,3,066A40,ffffff
-b3a10356,1,KCM2205,2205,3,066A40,ffffff
-a1a9b68c,1,KCM2206,2206,3,066A40,ffffff
-32cf5fba,1,KCM2207,2207,3,066A40,ffffff
-31beabd8,1,KCM230,230,3,D0BE25,ffffff
-8101f0d8,1,KCM231,231,3,D0BE25,ffffff
-8ed7a182,1,KCM2402,2402,3,066A40,ffffff
-4d937956,1,KCM2515,2515,3,066A40,ffffff
-956d6708,1,KCM2516,2516,3,066A40,ffffff
-637898ae,1,KCM2518,2518,3,066A40,ffffff
-fb6216fc,1,KCM2614,2614,3,066A40,ffffff
-c473e194,1,KCM2615,2615,3,066A40,ffffff
-9f2fa036,1,KCM2998,2998,3,066A40,ffffff
-c7535df4,1,KCM2999,2999,3,066A40,ffffff
-c5e0059a,1,KCM3006,3006,3,D0BE25,ffffff
-464a8b09,1,KCM3007,3007,3,D0BE25,ffffff
-0112f103,1,KCM3025,3025,3,D0BE25,ffffff
-a597cd83,1,KCM3028,3028,3,D0BE25,ffffff
-14595738,1,KCM3033,3033,3,D0BE25,ffffff
-252c89db,1,KCM3034,3034,3,D0BE25,ffffff
-a72ec9da,1,KCM3040,3040,3,D0BE25,ffffff
-2fcf3f55,1,KCM3047,3047,3,D0BE25,ffffff
-dde0d4f6,1,KCM3050,3050,3,D0BE25,ffffff
-cdf80df7,1,KCM3053,3053,3,D0BE25,ffffff
-1dcf08f9,1,KCM3054,3054,3,D0BE25,ffffff
-d0096a09,1,KCM3055,3055,3,D0BE25,ffffff
-3d407650,1,KCM3061,3061,3,D0BE25,ffffff
-ee2bb37d,1,KCM3062,3062,3,D0BE25,ffffff
-e357d70f,1,KCM3064,3064,3,D0BE25,ffffff
-aa2ed346,1,KCM3067,3067,3,D0BE25,ffffff
-7d9a3067,1,KCM3068,3068,3,D0BE25,ffffff
-c571c743,1,KCM3069,3069,3,D0BE25,ffffff
-a97e8cd9,1,KCM3073,3073,3,D0BE25,ffffff
-2dea3bb1,1,KCM3080,3080,3,D0BE25,ffffff
-7c43c30e,1,KCM3085,3085,3,D0BE25,ffffff
-c775e23a,1,KCM3090,3090,3,D0BE25,ffffff
-34947aca,1,KCM3091,3091,3,D0BE25,ffffff
-613bd12b,1,KCM3092,3092,3,D0BE25,ffffff
-bb2f2e61,1,KCM3096,3096,3,D0BE25,ffffff
-c526ee3a,1,KCM3099,3099,3,D0BE25,ffffff
-d85ed9c8,1,KCM3103,3103,3,D0BE25,ffffff
-fe6a99a7,1,KCM3104,3104,3,D0BE25,ffffff
-2e544480,1,KCM3114,3114,3,D0BE25,ffffff
-8b243d66,1,KCM3116,3116,3,D0BE25,ffffff
-8a509122,1,KCM3122,3122,3,D0BE25,ffffff
-6b4f68ad,1,KCM3123,3123,3,D0BE25,ffffff
-c5200790,1,KCM3162,3162,3,D0BE25,ffffff
-27553631,1,KCM3164,3164,3,D0BE25,ffffff
-e40b4cde,1,KCM3168,3168,3,D0BE25,ffffff
-50a77488,1,KCM3183,3183,3,D0BE25,ffffff
-174abf31,1,KCM3184,3184,3,D0BE25,ffffff
-37adaf3d,1,KCM3185,3185,3,D0BE25,ffffff
-ccc2db73,1,KCM3205,3205,3,D0BE25,ffffff
-f50bb914,1,KCM3213,3213,3,D0BE25,ffffff
-8a8e6908,1,KCM3214,3214,3,D0BE25,ffffff
-f1f37564,1,KCM3216,3216,3,D0BE25,ffffff
-427f5817,1,KCM3218,3218,3,D0BE25,ffffff
-b4caf20c,1,KCM3220,3220,3,D0BE25,ffffff
-49178b55,1,KCM3221,3221,3,D0BE25,ffffff
-c6fb8672,1,KCM3224,3224,3,D0BE25,ffffff
-bf2cd820,1,KCM3225,3225,3,D0BE25,ffffff
-5c68a8da,1,KCM3230,3230,3,D0BE25,ffffff
-5038bd1c,1,KCM3400,3400,3,D0BE25,ffffff
-9d035c27,1,KCM3401,3401,3,D0BE25,ffffff
-c9ac6292,1,KCM3403,3403,3,D0BE25,ffffff
-a5a6ad2c,1,KCM3405,3405,3,D0BE25,ffffff
-a1e9ad0a,1,KCM3406,3406,3,D0BE25,ffffff
-12646bd2,1,KCM3994,3994,3,D0BE25,ffffff
-8b451296,1,KCM3995,3995,3,D0BE25,ffffff
-7ec7f03a,1,KCM3996,3996,3,D0BE25,ffffff
-b4c98c07,1,KCM3998,3998,3,D0BE25,ffffff
-01c76c42,1,KCM3999,3999,3,D0BE25,ffffff
-624689f5,1,KCM67,67,3,C9500E,ffffff
-0db84a3b,1,KCM74-79,74-79,3,D0BE25,ffffff
-c6339be8,1,KCM914,914,3,D0BE25,ffffff
-6ae77cff,1,KCM915,915,3,D0BE25,ffffff
-e153a0c7,1,KCM930,930,3,D0BE25,ffffff
-838df28c,1,KCM_Ballard,Ballard-Pier 50 Fast Ferry,4,5A8400,ffffff
-fe6cc15a,1,KCM_Kenmore,Kenmore to UW Fast Ferry,4,A92023,ffffff
-4ddaf1d8,1,KCM_Kirkland,Kirkland to UW Fast Ferry,4,613FA6,ffffff
-d1a584e2,1,KCM973,West Seattle to Downtown Fast Ferry,4,0071ca,ffffff
-7c6aed77,1,KCM975,Vashon to Downtown Seattle Fast Ferry,4,4e0963,ffffff
-dac342ce,1,KCM1001,RR (E Line),5,AD0101,ffffff
-3ac667df,1,KCM1009,RR,5,A72051,ffffff
-9e423688,1,KCM1010,RRC,5,A72051,ffffff
-86386337,1,KCM1012,RRIC,5,A72051,ffffff
-64335d82,1,KCM1013,RR (J Line),5,AD0101,ffffff
-64b42288,1,KCM1014,RRC,5,A72051,ffffff
-35d8b755,1,KCM1027,RR (K Line),5,AD0101,ffffff
-0e632d9b,1,KCM1028RR,+ 3101 RRIC,5,A72051,ffffff
-af734d73,1,KCM1030,RRC,5,A72051,ffffff
-d7a11731,1,KCM1033,RR (I Line),5,AD0101,ffffff
-b7b2e507,1,KCM1041,RR,5,AD0101,ffffff
-9383b962,1,KCM1043,RRC,5,A72051,ffffff
-54daeb98,1,KCM1047,RR,5,AD0101,ffffff
-d10ce9f2,1,KCM1048,RR (F Line),5,AD0101,ffffff
-f49ff308,1,KCM1049,RRIC,5,A72051,ffffff
-8cd15f5d,1,KCM1052,RRIC,5,A72051,ffffff
-1f4e7147,1,KCM1056,RRC,5,A72051,ffffff
-4551b28a,1,KCM1059,RR (G Line),5,AD0101,ffffff
-628fdd6e,1,KCM1061,RRC,5,A72051,ffffff
-b19647c7,1,KCM1063,RRC,5,A72051,ffffff
-d5b2b21b,1,KCM1064,RRIC,5,A72051,ffffff
-b5fe11d9,1,KCM1071,RR (R Line),5,AD0101,ffffff
-d5cac403,1,KCM1202,RRC,5,A72051,ffffff
-2819732c,1,KCM1993,RRIC,5,A72051,ffffff
-2d969405,1,KCM1999,RRIC,5,A72051,ffffff
-8e776757,1,SEA1001,Monorail - Seattle Center,12,AD0101,ffffff
-18c4003e,2,PT1,TCC/ TDS,3,4E0963,ffffff
-16d504d3,2,PT10,Pearl St,3,ce5504,ffffff
-ca4a7158,2,PT100,Purdy Gig Harbor TCC,3,4e0963,ffffff
-2c4e3ff0,2,PT102,Purdy Gig Harbor Tacoma Expre,3,b10086,ffffff
-57fe3ec0,2,PT11,Pt. Ruston,3,49684,ffffff
-216b29c1,2,PT13,N 30th St,3,b10086,ffffff
-1dbc6241,2,PT16,N 21st /North End,3,49684,ffffff
-7fbb934e,2,PT202,72nd Street,3,cc9b00,ffffff
-5f850e6c,2,PT206,Pacific Hwy / Tillicum / Madigan,3,4e0963,ffffff
-135dcc98,2,PT212,Steilacoom,3,49684,ffffff
-a748760a,2,PT214,Washington,3,cc9b00,ffffff
-b50b0ec2,2,PT28,S 12th St,3,ce5504,ffffff
-927d06ce,2,PT3,South Tacoma Way,3,cc9b00,ffffff
-8fd32294,2,PT4,S 112th St,3,ce5504,ffffff
-9ce7c4d3,2,PT40,Portland & Port of Tacoma,3,613FA6,ffffff
-b5048cb3,2,PT400,Puyallup / DowntownTacoma,3,0071ca,ffffff
-b073cfd8,2,PT402,Meridian / Federal Way,3,ad0101,ffffff
-8ba574f6,2,PT409,Puyallup / 72nd,3,0071ca,ffffff
-6676611c,2,PT41,56th St / Salishan,3,b10086,ffffff
-e8689ab9,2,PT42,McKinley,3,ce5504,ffffff
-d291f05b,2,PT425,Puyallup Connector,3,0d7215,ffffff
-1968e9c7,2,PT45,Yakima,3,4e0963,ffffff
-049e096b,2,PT48,Sheridan / M st,3,49684,ffffff
-9d465682,2,PT497,Lakeland Hill connector,3,4e0963,ffffff
-42fdf1c0,2,PT500,Federal Way,3,0d7215,ffffff
-9f91914f,2,PT501,Milton Federal way,3,0071ca,ffffff
-b15b66fa,2,PT51,redeux,3,0071CA,ffffff
-08aff8a4,2,PT52,TCC Tac Mall,3,0d7215,ffffff
-0e4cde2b,2,PT53,University Place,3,0071ca,ffffff
-bbae2a77,2,PT54,Parkland,3,0d7215,ffffff
-26fb2260,2,PT55,Parkland Tac Mall,3,cc9b00,ffffff
-7aca256e,2,PT57,Tacoma Mall,3,0d7215,ffffff
-4e24220e,2,PT63,Community Cntr 2-Way,3,B10086,ffffff
-3b7a72ab,2,PT1BRT,BRT LPA-Hybrid10-min6H-Hours-Out and Back,5,AD0101,ffffff
-2b10424c,2,PT2BRT,Bridgeport / S 19th St,5,ad0101,ffffff
-d7d74782,3,CT1102,CT1102,3,066A40,ffffff
-28bcb6ba,3,CT1106,CT1106,3,066A40,ffffff
-99906fb3,3,CT1112,CT1112,3,066A40,ffffff
-dce6734c,3,CT1113,CT1113,3,066A40,ffffff
-44208711,3,CT1116,CT1116,3,066A40,ffffff
-9b726729,3,CT1209,CT1209,3,066A40,ffffff
-6ed9842a,3,CT2122,CT2122,3,066A40,ffffff
-898a2ebc,3,CT2203,CT2203,3,066A40,ffffff
-3db9513d,3,CT2227,CT2227,3,066A40,ffffff
-94ed2be7,3,CT2247,CT2247,3,066A40,ffffff
-c7197f4c,3,CT2247,CT2247-Copy,3,066A40,ffffff
-b9e6b7b7,3,CT2271,long,3,066A40,ffffff
-e29891cd,3,CT2271,short,3,066A40,ffffff
-35bcac74,3,CT2424,CT2424,3,066A40,ffffff
-e3b126c4,3,CT2435,CT2435,3,066A40,ffffff
-5298aa7b,3,CT3101,CT3101,3,066A40,ffffff
-982ca186,3,CT3105,CT3105,3,066A40,ffffff
-16747f38,3,CT3107,CT3107,3,066A40,ffffff
-50a44323,3,CT3109,CT3109,3,066A40,ffffff
-8fa9977b,3,CT3111,CT3111,3,066A40,ffffff
-e691ad9e,3,CT3115,CT3115,3,066A40,ffffff
-30142a47,3,CT3119,CT3119,3,066A40,ffffff
-43bb338e,3,CT3120,CT3120,3,066A40,ffffff
-00c485e2,3,CT3121,CT3121,3,066A40,ffffff
-af985640,3,CT3128,CT3128,3,066A40,ffffff
-b76d9e12,3,CT3130,CT3130,3,066A40,ffffff
-9a5ae71c,3,CT3135,CT3135,3,066A40,ffffff
-24f2a4fb,3,CT3148,CT3148,3,066A40,ffffff
-0b3b2a0e,3,CT3180,CT3180,3,066A40,ffffff
-abc55fe9,3,CT3196,CT3196,3,066A40,ffffff
-2977970e,3,CT3201,CT3201,3,066A40,ffffff
-2b621e66,3,CT3220,CT3220,3,066A40,ffffff
-83244bce,3,CT3222,CT3222,3,066A40,ffffff
-b7a0ee65,3,CT3230,CT3230,3,066A40,ffffff
-35b0f985,3,CT3240,CT3240,3,066A40,ffffff
-b678c331,3,CT3270,CT3270A,3,066A40,ffffff
-0942e995,3,CT3270,CT3270P,3,066A40,ffffff
-01eefa99,3,CT3280,long,3,066A40,ffffff
-c26e311b,3,CT3280,short,3,066A40,ffffff
-df754253,3,CT3409,CT3409,3,066A40,ffffff
-d156682c,3,CT3417,CT3417,3,066A40,ffffff
-3a763e4c,3,CT3422,CT3422,3,066A40,ffffff
-a13fdd48,3,CT3472,CT3472,3,066A40,ffffff
-652b10f6,3,CT1701,BRT,5,005BAA,ffffff
-a85c881c,3,CT1702,BRT,5,005BAA,ffffff
-69930699,3,CT1703,BRT,5,005BAA,ffffff
-78bfd309,3,CT1704,BRT,5,005BAA,ffffff
-c7599818,3,CT1705,BRT,5,005BAA,ffffff
-1cf42b58,4,KT_60,Route 60 Tacoma,3,4E0963,ffffff
-f5809e72,4,KT_Purdy,Purdy Connection,3,7878,ffffff
-4b6b7b26,4,KT106,Fletcher Bay,3,5960ed,ffffff
-b1a951a9,4,KT107,Southworth Ferry,3,066A40,ffffff
-3b91c269,4,KT20,Navy Yard City,3,13a224,ffffff
-ef2d092a,4,KT202,Central Kitsap FF Express,3,A92023,ffffff
-be799227,4,KT212,Silverdale West,3,f70577,ffffff
-1beb856c,4,KT215,Kariotis/McWilliams Express,3,B10086,ffffff
-7c134bb7,4,KT215,Kariotis/McWilliams Express,3,B10086,ffffff
-9d2a97f3,4,KT217,Silverdale East,3,72939a,ffffff
-25d28483,4,KT219,Crossroads Shuttle,3,b2752d,ffffff
-69986b11,4,KT22,Gateway Express,3,d35da3,ffffff
-c2a2a6ec,4,KT221,Perry Ave,3,0D7215,ffffff
-d305cd13,4,KT223,Kariotis,3,CE5504,ffffff
-ad38ff57,4,KT225,East Park,3,bb3099,ffffff
-22f1ba3e,4,KT229,Trenton,3,613FA6,ffffff
-6cf80593,4,KT234,Bangor,3,CC9B00,ffffff
-633b8d6c,4,KT235,Silverdale Old Town,3,0D7215,ffffff
-a53461d0,4,KT237,Fairgrounds Shuttle,3,2eaeb7,ffffff
-8788b3d5,4,KT24,Olympic College,3,a41b4a,ffffff
-b2b5c354,4,KT26,Bay Vista,3,e1790a,ffffff
-09326a46,4,KT301,N Kitsap FF Express,3,066A40,ffffff
-652f51c1,4,KT302,Kingston Suqaumish Fast Ferry,3,CE5504,ffffff
-dade71b6,4,KT307,Kingston,3,AD0101,ffffff
-26d24255,4,KT332,Poulsbo / Silverdale,3,00aaed,ffffff
-f58ab4d9,4,KT333,Silverdale / Bainbridge,3,0D7215,ffffff
-d0a8699d,4,KT344,Poulsbo Central,3,49684,ffffff
-059d725b,4,KT390,Poulsbo / Bainbridge,3,0071CA,ffffff
-9b7fd4ed,4,KT4,Tremont,3,4591c2,ffffff
-618bc72f,4,KT5,Sidney,3,60a24e,ffffff
-8ced6ebb,4,KT8,Bethel,3,f83fea,ffffff
-4986ce9f,4,KT81,Annapolis Exp Commuter,3,C9500E,ffffff
-c863e254,4,KT85,Mullenix Express,3,8080,ffffff
-0dfef3e7,4,KT86,Southworth Shuttle,3,5b3b80,ffffff
-f0fe3b69,4,KT9,South Park,3,4a800c,ffffff
-a1a95350,4,KT91,Kingston / Bainbridge,3,00bbbb,ffffff
-e4ab4467,4,KT92,Kingston / Suquamish,3,803b23,ffffff
-93e1dc0c,4,KT93,Manzanita,3,8080,ffffff
-cbf44a6a,4,KT94,Agate Point,3,448038,ffffff
-7e291c9e,4,KT95,Battle Point,3,6d2f80,ffffff
-21340627,4,KT96,Sunrise,3,803a66,ffffff
-2713ad14,4,KT97,Crystal Springs,3,7c8076,ffffff
-a73bbc70,4,KT98,Fort Ward,3,39802a,ffffff
-044e6aec,4,KT99,Bill Point,3,80471c,ffffff
-f09e3012,4,KT_Annapolis,Annapolis to Bremerton Foot Ferry,4,007DBD,ffffff
-97bdbd4c,4,KT_Bremerton,Fast Ferry,4,6e6eff,ffffff
-94f23b4b,4,KT_Kingston,Fast Ferry,4,CE5504,ffffff
-213ab30d,4,KT_PortOrchard,Port Orchard - Bremerton Ferry,4,007DBD,ffffff
-bb27165f,4,KT_Southworth,Fast Ferry,4,007DBD,ffffff
-3e616ab2,5,WSF2100,Bainbridge to Seattle,4,0D7215,ffffff
-b04779a2,5,WSF2100,Seattle to Bainbridge,4,0D7215,ffffff
-c814ff9e,5,WSF2101,Bremerton to Seattle,4,0D7215,ffffff
-cf2d7f19,5,WSF2101,Seattle to Bremerton,4,0D7215,ffffff
-919eab0d,5,WSF2102,Kingston to Edmonds,4,0D7215,ffffff
-41b4230a,5,WSF2102,Edmonds to Kingston,4,0D7215,ffffff
-62e4b574,5,WSF2103,Clinton to Mukilteo,4,0D7215,ffffff
-773e9c22,5,WSF2103,Mukilteo to Clinton,4,0D7215,ffffff
-fdec6e9e,5,WSF2104,Southworth to Fauntleroy,4,0D7215,ffffff
-e6a8c0bc,5,WSF2104,Fauntleroy to Southworth,4,0D7215,ffffff
-2dd95e0f,5,WSF2105,Vashon to Fauntleroy,4,0D7215,ffffff
-71e44555,5,WSF2105,Fauntleroy to Vashon,4,0D7215,ffffff
-a036a972,5,WSF2106,Point Defiance to Tahlequah,4,0D7215,ffffff
-2771ce01,5,WSF2106,Tahlequah to Point Defiance,4,0D7215,ffffff
-8f7dde3e,5,WSF2107,Vashon to Southworth,4,0D7215,ffffff
-961fa992,6,ST_Link_1,1 Line,1,3fae2a,ffffff
-edb59098,6,ST_Link_2,2 Line,1,008fbe,ffffff
-a100f6d5,6,ST_Link_3,3 Line,1,e51a92,ffffff
-d41e3912,6,ST_Link_4,4 Line,1,9f26b5,ffffff
-c5ad7b63,6,ST_Link_T,T Line,1,f38b00,ffffff
-d0c48cae,6,ST_Sounder_N,N Line,2,7f96b6,ffffff
-acaa2738,6,ST_Sounder_S,S Line,2,7f96b6,ffffff
-67c77c59,6,ST512,OWL Everett - Seattle,3,002e6d,ffffff
-53d32b0e,6,ST513,OWL Everett - Seattle,3,002e6d,ffffff
-df258712,6,ST534,Woodinville-Bellevue,3,002e6d,ffffff
-6e99ffed,6,ST542,Redmond - University District,3,002e6d,ffffff
-d5583f10,6,ST567,Auburn - Bellevue,3,002e6d,ffffff
-c0b530d2,6,ST574,OWL Lakewood - SeaTac,3,002e6d,ffffff
-57cf3319,6,ST577,Early AM Federal Way-Seattle,3,002e6d,ffffff
-a413841d,6,ST578,Federal Way - Fife,3,002e6d,ffffff
-a7255f38,6,ST580,South Hill to Puyallup,3,002e6d,ffffff
-13321ce6,6,ST586,Tacoma - U. District,3,002E6D,ffffff
-b88e6505,6,ST590,Early AM Tacoma-Seattle,3,002e6d,ffffff
-31ca8baa,6,ST592,(Off Peak) DuPont - Tacoma,3,002e6d,ffffff
-a6fee733,6,ST594,Lakewood - Seattle,3,002e6d,ffffff
-83c1092b,6,ST596,Bonney Lake - Sumner,3,002e6d,ffffff
-858586eb,6,ST_Stride_S1,S1 Line,5,edaa00,ffffff
-d06fcd19,6,ST_Stride_S2,S2 Line,5,edaa00,ffffff
-604f7a45,6,ST_Stride_S3,S3 Line,5,edaa00,ffffff
-41580788,7,ET10,N to Everett Station | S to Airport Rd.,3,A92023,ffffff
-2ef05dd5,7,ET11,STC \ Mariner P&R,3,A92023,ffffff
-f053058e,7,ET12,Casino Connector,3,A92023,ffffff
-e46200aa,7,ET14,E Paine Field | E to Eastmont Station,3,A92023,ffffff
-1dccf7aa,7,ET17,Colby Connector,3,A92023,ffffff
-c76e3d5e,7,ET18,W to Mukilteo - E to Everett Station,3,A92023,ffffff
-7be46287,7,ET2,S to Mariner P&R / N to Mall Station,3,A92023,ffffff
-6c44a3c9,7,ET27,Mall \ Murphy's Corner,3,A92023,ffffff
-da8e95b3,7,ET29,Route 29,3,A92023,ffffff
-02c34c5a,7,ET3,S to STC - N to Everett Station,3,A92023,ffffff
-19e9415f,7,ET4,S to Downtown - N to College Station,3,A92023,ffffff
-158d5d6b,7,ET6,W to Waterfront | E to Riverfront,3,A92023,ffffff
-6d8dc08c,7,ET7,S to Mall Station - N to College Station,3,A92023,ffffff
-c3d8f70e,7,ET70,East to Boeing / West to Mukilteo,3,A92023,ffffff
-421eaf8d,7,ET8,S to STC - N to Everett Station,3,A92023,ffffff
-c62b416c,8,PCF_Anderson_Ketron,PCF_Anderson_Ketron,4,C9500E,ffffff
-cfd369dd,8,PCF_Steilacoom_Ketron,PCF_Steilacoom_Ketron,4,613FA6,ffffff
-f088ee1b,8,PCF_Steilacoom-Anderson,PCF_Steilacoom-Anderson,4,007DBD,ffffff
+route_id,agency_id,route_short_name,route_long_name,route_type,route_color,route_text_color,OBJECTID_1,route_desc,route_url
+04663955,1,SEA1002,Streetcar - First Hill Revised,0,AD0101,ffffff,,,
+6d393241,1,SEA1003,Streetcar - SLU Revised,0,AD0101,ffffff,,,
+9fda70a6,1,SEA1004,Streetcar - Uptown,0,AD0101,ffffff,,,
+453535a2,1,KCM1002,1002,3,C9500E,ffffff,,,
+3713de4d,1,KCM1005,1005,3,C9500E,ffffff,,,
+374a5eba,1,KCM1006,1006,3,C9500E,ffffff,,,
+5e4b8d81,1,KCM1007,1007,3,C9500E,ffffff,,,
+25112c9b,1,KCM101,101,3,D0BE25,ffffff,,,
+f0df7cac,1,KCM1018,1018,3,C9500E,ffffff,,,
+b26161b8,1,KCM1019,1019,3,C9500E,ffffff,,,
+ab7acd95,1,KCM1025,1025,3,C9500E,ffffff,,,
+afff8bcf,1,KCM1026,1026,3,C9500E,ffffff,,,
+6ad0dd14,1,KCM1031,1031,3,C9500E,ffffff,,,
+94880311,1,KCM1037,1037,3,C9500E,ffffff,,,
+b5d4d69d,1,KCM1039,1039,3,C9500E,ffffff,,,
+3754b2e0,1,KCM1040,1040,3,C9500E,ffffff,,,
+d09a8a98,1,KCM1042,1042,3,C9500E,ffffff,,,
+3a8a89aa,1,KCM1046,1046,3,C9500E,ffffff,,,
+150d941c,1,KCM1068,1068,3,C9500E,ffffff,,,
+599892de,1,KCM1074,1074,3,C9500E,ffffff,,,
+ad29b9ce,1,KCM1075,1075,3,C9500E,ffffff,,,
+ab921550,1,KCM1083,1083,3,C9500E,ffffff,,,
+096746d6,1,KCM1085,1085,3,C9500E,ffffff,,,
+7e669bf1,1,KCM1088,1088,3,C9500E,ffffff,,,
+a6225536,1,KCM1213,1213,3,C9500E,ffffff,,,
+467ac73e,1,KCM1214,1214,3,C9500E,ffffff,,,
+bfd87d5b,1,KCM1215,1215,3,C9500E,ffffff,,,
+456559c0,1,KCM1220,1220,3,C9500E,ffffff,,,
+80ac67af,1,KCM1501,1501,3,C9500E,ffffff,,,
+1c6e60bd,1,KCM1505,1505,3,C9500E,ffffff,,,
+ca929ef4,1,KCM1511,1511,3,C9500E,ffffff,,,
+af26f8f8,1,KCM1512,1512,3,C9500E,ffffff,,,
+ebe59c36,1,KCM1513,1513,3,C9500E,ffffff,,,
+268a3582,1,KCM1514,1514,3,C9500E,ffffff,,,
+730987f5,1,KCM1515,1515,3,C9500E,ffffff,,,
+774419c1,1,KCM162,162,3,066A40,ffffff,,,
+72ee2755,1,KCM1994,1994,3,C9500E,ffffff,,,
+b563ed01,1,KCM1997,1997,3,C9500E,ffffff,,,
+3a72a82c,1,KCM1998,1998,3,C9500E,ffffff,,,
+575b7cc9,1,KCM2003,2003,3,066A40,ffffff,,,
+86a5c201,1,KCM2012,2012,3,066A40,ffffff,,,
+30d1f9cb,1,KCM2016,2016,3,066A40,ffffff,,,
+dfd36351,1,KCM2020,2020,3,066A40,ffffff,,,
+be7ab5f1,1,KCM2021,S,3,066A40,ffffff,,,
+d586b0c5,1,KCM2021,N,3,066A40,ffffff,,,
+5b3fcc06,1,KCM2022,2022,3,066A40,ffffff,,,
+09d04fb6,1,KCM2028,2028,3,066A40,ffffff,,,
+0fba818c,1,KCM2203,2203,3,066A40,ffffff,,,
+619bb5a8,1,KCM2204,2204,3,066A40,ffffff,,,
+b3a10356,1,KCM2205,2205,3,066A40,ffffff,,,
+a1a9b68c,1,KCM2206,2206,3,066A40,ffffff,,,
+32cf5fba,1,KCM2207,2207,3,066A40,ffffff,,,
+31beabd8,1,KCM230,230,3,D0BE25,ffffff,,,
+8101f0d8,1,KCM231,231,3,D0BE25,ffffff,,,
+8ed7a182,1,KCM2402,2402,3,066A40,ffffff,,,
+4d937956,1,KCM2515,2515,3,066A40,ffffff,,,
+956d6708,1,KCM2516,2516,3,066A40,ffffff,,,
+637898ae,1,KCM2518,2518,3,066A40,ffffff,,,
+fb6216fc,1,KCM2614,2614,3,066A40,ffffff,,,
+c473e194,1,KCM2615,2615,3,066A40,ffffff,,,
+9f2fa036,1,KCM2998,2998,3,066A40,ffffff,,,
+c7535df4,1,KCM2999,2999,3,066A40,ffffff,,,
+c5e0059a,1,KCM3006,3006,3,D0BE25,ffffff,,,
+464a8b09,1,KCM3007,3007,3,D0BE25,ffffff,,,
+0112f103,1,KCM3025,3025,3,D0BE25,ffffff,,,
+a597cd83,1,KCM3028,3028,3,D0BE25,ffffff,,,
+14595738,1,KCM3033,3033,3,D0BE25,ffffff,,,
+252c89db,1,KCM3034,3034,3,D0BE25,ffffff,,,
+a72ec9da,1,KCM3040,3040,3,D0BE25,ffffff,,,
+2fcf3f55,1,KCM3047,3047,3,D0BE25,ffffff,,,
+dde0d4f6,1,KCM3050,3050,3,D0BE25,ffffff,,,
+cdf80df7,1,KCM3053,3053,3,D0BE25,ffffff,,,
+1dcf08f9,1,KCM3054,3054,3,D0BE25,ffffff,,,
+d0096a09,1,KCM3055,3055,3,D0BE25,ffffff,,,
+3d407650,1,KCM3061,3061,3,D0BE25,ffffff,,,
+ee2bb37d,1,KCM3062,3062,3,D0BE25,ffffff,,,
+e357d70f,1,KCM3064,3064,3,D0BE25,ffffff,,,
+aa2ed346,1,KCM3067,3067,3,D0BE25,ffffff,,,
+7d9a3067,1,KCM3068,3068,3,D0BE25,ffffff,,,
+c571c743,1,KCM3069,3069,3,D0BE25,ffffff,,,
+a97e8cd9,1,KCM3073,3073,3,D0BE25,ffffff,,,
+2dea3bb1,1,KCM3080,3080,3,D0BE25,ffffff,,,
+7c43c30e,1,KCM3085,3085,3,D0BE25,ffffff,,,
+c775e23a,1,KCM3090,3090,3,D0BE25,ffffff,,,
+34947aca,1,KCM3091,3091,3,D0BE25,ffffff,,,
+613bd12b,1,KCM3092,3092,3,D0BE25,ffffff,,,
+bb2f2e61,1,KCM3096,3096,3,D0BE25,ffffff,,,
+c526ee3a,1,KCM3099,3099,3,D0BE25,ffffff,,,
+d85ed9c8,1,KCM3103,3103,3,D0BE25,ffffff,,,
+fe6a99a7,1,KCM3104,3104,3,D0BE25,ffffff,,,
+2e544480,1,KCM3114,3114,3,D0BE25,ffffff,,,
+8b243d66,1,KCM3116,3116,3,D0BE25,ffffff,,,
+8a509122,1,KCM3122,3122,3,D0BE25,ffffff,,,
+6b4f68ad,1,KCM3123,3123,3,D0BE25,ffffff,,,
+c5200790,1,KCM3162,3162,3,D0BE25,ffffff,,,
+27553631,1,KCM3164,3164,3,D0BE25,ffffff,,,
+e40b4cde,1,KCM3168,3168,3,D0BE25,ffffff,,,
+50a77488,1,KCM3183,3183,3,D0BE25,ffffff,,,
+174abf31,1,KCM3184,3184,3,D0BE25,ffffff,,,
+37adaf3d,1,KCM3185,3185,3,D0BE25,ffffff,,,
+ccc2db73,1,KCM3205,3205,3,D0BE25,ffffff,,,
+f50bb914,1,KCM3213,3213,3,D0BE25,ffffff,,,
+8a8e6908,1,KCM3214,3214,3,D0BE25,ffffff,,,
+f1f37564,1,KCM3216,3216,3,D0BE25,ffffff,,,
+427f5817,1,KCM3218,3218,3,D0BE25,ffffff,,,
+b4caf20c,1,KCM3220,3220,3,D0BE25,ffffff,,,
+49178b55,1,KCM3221,3221,3,D0BE25,ffffff,,,
+c6fb8672,1,KCM3224,3224,3,D0BE25,ffffff,,,
+bf2cd820,1,KCM3225,3225,3,D0BE25,ffffff,,,
+5c68a8da,1,KCM3230,3230,3,D0BE25,ffffff,,,
+5038bd1c,1,KCM3400,3400,3,D0BE25,ffffff,,,
+9d035c27,1,KCM3401,3401,3,D0BE25,ffffff,,,
+c9ac6292,1,KCM3403,3403,3,D0BE25,ffffff,,,
+a5a6ad2c,1,KCM3405,3405,3,D0BE25,ffffff,,,
+a1e9ad0a,1,KCM3406,3406,3,D0BE25,ffffff,,,
+12646bd2,1,KCM3994,3994,3,D0BE25,ffffff,,,
+8b451296,1,KCM3995,3995,3,D0BE25,ffffff,,,
+7ec7f03a,1,KCM3996,3996,3,D0BE25,ffffff,,,
+b4c98c07,1,KCM3998,3998,3,D0BE25,ffffff,,,
+01c76c42,1,KCM3999,3999,3,D0BE25,ffffff,,,
+624689f5,1,KCM67,67,3,C9500E,ffffff,,,
+0db84a3b,1,KCM74-79,74-79,3,D0BE25,ffffff,,,
+c6339be8,1,KCM914,914,3,D0BE25,ffffff,,,
+6ae77cff,1,KCM915,915,3,D0BE25,ffffff,,,
+e153a0c7,1,KCM930,930,3,D0BE25,ffffff,,,
+838df28c,1,KCM_Ballard,Ballard-Pier 50 Fast Ferry,4,5A8400,ffffff,,,
+fe6cc15a,1,KCM_Kenmore,Kenmore to UW Fast Ferry,4,A92023,ffffff,,,
+4ddaf1d8,1,KCM_Kirkland,Kirkland to UW Fast Ferry,4,613FA6,ffffff,,,
+d1a584e2,1,KCM973,West Seattle to Downtown Fast Ferry,4,0071ca,ffffff,,,
+7c6aed77,1,KCM975,Vashon to Downtown Seattle Fast Ferry,4,4e0963,ffffff,,,
+dac342ce,1,KCM1001,RR (E Line),5,AD0101,ffffff,,,
+3ac667df,1,KCM1009,RR,5,A72051,ffffff,,,
+9e423688,1,KCM1010,RRC,5,A72051,ffffff,,,
+86386337,1,KCM1012,RRIC,5,A72051,ffffff,,,
+64335d82,1,KCM1013,RR (J Line),5,AD0101,ffffff,,,
+64b42288,1,KCM1014,RRC,5,A72051,ffffff,,,
+35d8b755,1,KCM1027,RR (K Line),5,AD0101,ffffff,,,
+0e632d9b,1,KCM1028RR,+ 3101 RRIC,5,A72051,ffffff,,,
+af734d73,1,KCM1030,RRC,5,A72051,ffffff,,,
+d7a11731,1,KCM1033,RR (I Line),5,AD0101,ffffff,,,
+b7b2e507,1,KCM1041,RR,5,AD0101,ffffff,,,
+9383b962,1,KCM1043,RRC,5,A72051,ffffff,,,
+54daeb98,1,KCM1047,RR,5,AD0101,ffffff,,,
+d10ce9f2,1,KCM1048,RR (F Line),5,AD0101,ffffff,,,
+f49ff308,1,KCM1049,RRIC,5,A72051,ffffff,,,
+8cd15f5d,1,KCM1052,RRIC,5,A72051,ffffff,,,
+1f4e7147,1,KCM1056,RRC,5,A72051,ffffff,,,
+4551b28a,1,KCM1059,RR (G Line),5,AD0101,ffffff,,,
+628fdd6e,1,KCM1061,RRC,5,A72051,ffffff,,,
+b19647c7,1,KCM1063,RRC,5,A72051,ffffff,,,
+d5b2b21b,1,KCM1064,RRIC,5,A72051,ffffff,,,
+b5fe11d9,1,KCM1071,RR (R Line),5,AD0101,ffffff,,,
+d5cac403,1,KCM1202,RRC,5,A72051,ffffff,,,
+2819732c,1,KCM1993,RRIC,5,A72051,ffffff,,,
+2d969405,1,KCM1999,RRIC,5,A72051,ffffff,,,
+8e776757,1,SEA1001,Monorail - Seattle Center,0,AD0101,ffffff,,,
+18c4003e,1,PT1,TCC/ TDS,3,4E0963,ffffff,,,
+16d504d3,1,PT10,Pearl St,3,ce5504,ffffff,,,
+ca4a7158,1,PT100,Purdy Gig Harbor TCC,3,4e0963,ffffff,,,
+2c4e3ff0,1,PT102,Purdy Gig Harbor Tacoma Expre,3,b10086,ffffff,,,
+57fe3ec0,1,PT11,Pt. Ruston,3,49684,ffffff,,,
+216b29c1,1,PT13,N 30th St,3,b10086,ffffff,,,
+1dbc6241,1,PT16,N 21st /North End,3,49684,ffffff,,,
+7fbb934e,1,PT202,72nd Street,3,cc9b00,ffffff,,,
+5f850e6c,1,PT206,Pacific Hwy / Tillicum / Madigan,3,4e0963,ffffff,,,
+135dcc98,1,PT212,Steilacoom,3,49684,ffffff,,,
+a748760a,1,PT214,Washington,3,cc9b00,ffffff,,,
+b50b0ec2,1,PT28,S 12th St,3,ce5504,ffffff,,,
+927d06ce,1,PT3,South Tacoma Way,3,cc9b00,ffffff,,,
+8fd32294,1,PT4,S 112th St,3,ce5504,ffffff,,,
+9ce7c4d3,1,PT40,Portland & Port of Tacoma,3,613FA6,ffffff,,,
+b5048cb3,1,PT400,Puyallup / DowntownTacoma,3,0071ca,ffffff,,,
+b073cfd8,1,PT402,Meridian / Federal Way,3,ad0101,ffffff,,,
+8ba574f6,1,PT409,Puyallup / 72nd,3,0071ca,ffffff,,,
+6676611c,1,PT41,56th St / Salishan,3,b10086,ffffff,,,
+e8689ab9,1,PT42,McKinley,3,ce5504,ffffff,,,
+d291f05b,1,PT425,Puyallup Connector,3,0d7215,ffffff,,,
+1968e9c7,1,PT45,Yakima,3,4e0963,ffffff,,,
+049e096b,1,PT48,Sheridan / M st,3,49684,ffffff,,,
+9d465682,1,PT497,Lakeland Hill connector,3,4e0963,ffffff,,,
+42fdf1c0,1,PT500,Federal Way,3,0d7215,ffffff,,,
+9f91914f,1,PT501,Milton Federal way,3,0071ca,ffffff,,,
+b15b66fa,1,PT51,redeux,3,0071CA,ffffff,,,
+08aff8a4,1,PT52,TCC Tac Mall,3,0d7215,ffffff,,,
+0e4cde2b,1,PT53,University Place,3,0071ca,ffffff,,,
+bbae2a77,1,PT54,Parkland,3,0d7215,ffffff,,,
+26fb2260,1,PT55,Parkland Tac Mall,3,cc9b00,ffffff,,,
+7aca256e,1,PT57,Tacoma Mall,3,0d7215,ffffff,,,
+4e24220e,1,PT63,Community Cntr 2-Way,3,B10086,ffffff,,,
+3b7a72ab,1,PT1BRT,BRT LPA-Hybrid10-min6H-Hours-Out and Back,5,AD0101,ffffff,,,
+2b10424c,1,PT2BRT,Bridgeport / S 19th St,5,ad0101,ffffff,,,
+d7d74782,1,CT1102,CT1102,3,066A40,ffffff,,,
+28bcb6ba,1,CT1106,CT1106,3,066A40,ffffff,,,
+99906fb3,1,CT1112,CT1112,3,066A40,ffffff,,,
+dce6734c,1,CT1113,CT1113,3,066A40,ffffff,,,
+44208711,1,CT1116,CT1116,3,066A40,ffffff,,,
+9b726729,1,CT1209,CT1209,3,066A40,ffffff,,,
+6ed9842a,1,CT2122,CT2122,3,066A40,ffffff,,,
+898a2ebc,1,CT2203,CT2203,3,066A40,ffffff,,,
+3db9513d,1,CT2227,CT2227,3,066A40,ffffff,,,
+94ed2be7,1,CT2247,CT2247,3,066A40,ffffff,,,
+c7197f4c,1,CT2247,CT2247-Copy,3,066A40,ffffff,,,
+b9e6b7b7,1,CT2271,long,3,066A40,ffffff,,,
+e29891cd,1,CT2271,short,3,066A40,ffffff,,,
+35bcac74,1,CT2424,CT2424,3,066A40,ffffff,,,
+e3b126c4,1,CT2435,CT2435,3,066A40,ffffff,,,
+5298aa7b,1,CT3101,CT3101,3,066A40,ffffff,,,
+982ca186,1,CT3105,CT3105,3,066A40,ffffff,,,
+16747f38,1,CT3107,CT3107,3,066A40,ffffff,,,
+50a44323,1,CT3109,CT3109,3,066A40,ffffff,,,
+8fa9977b,1,CT3111,CT3111,3,066A40,ffffff,,,
+e691ad9e,1,CT3115,CT3115,3,066A40,ffffff,,,
+30142a47,1,CT3119,CT3119,3,066A40,ffffff,,,
+43bb338e,1,CT3120,CT3120,3,066A40,ffffff,,,
+00c485e2,1,CT3121,CT3121,3,066A40,ffffff,,,
+af985640,1,CT3128,CT3128,3,066A40,ffffff,,,
+b76d9e12,1,CT3130,CT3130,3,066A40,ffffff,,,
+9a5ae71c,1,CT3135,CT3135,3,066A40,ffffff,,,
+24f2a4fb,1,CT3148,CT3148,3,066A40,ffffff,,,
+0b3b2a0e,1,CT3180,CT3180,3,066A40,ffffff,,,
+abc55fe9,1,CT3196,CT3196,3,066A40,ffffff,,,
+2977970e,1,CT3201,CT3201,3,066A40,ffffff,,,
+2b621e66,1,CT3220,CT3220,3,066A40,ffffff,,,
+83244bce,1,CT3222,CT3222,3,066A40,ffffff,,,
+b7a0ee65,1,CT3230,CT3230,3,066A40,ffffff,,,
+35b0f985,1,CT3240,CT3240,3,066A40,ffffff,,,
+b678c331,1,CT3270,CT3270A,3,066A40,ffffff,,,
+0942e995,1,CT3270,CT3270P,3,066A40,ffffff,,,
+01eefa99,1,CT3280,long,3,066A40,ffffff,,,
+c26e311b,1,CT3280,short,3,066A40,ffffff,,,
+df754253,1,CT3409,CT3409,3,066A40,ffffff,,,
+d156682c,1,CT3417,CT3417,3,066A40,ffffff,,,
+3a763e4c,1,CT3422,CT3422,3,066A40,ffffff,,,
+a13fdd48,1,CT3472,CT3472,3,066A40,ffffff,,,
+652b10f6,1,CT1701,BRT,5,005BAA,ffffff,,,
+a85c881c,1,CT1702,BRT,5,005BAA,ffffff,,,
+69930699,1,CT1703,BRT,5,005BAA,ffffff,,,
+78bfd309,1,CT1704,BRT,5,005BAA,ffffff,,,
+c7599818,1,CT1705,BRT,5,005BAA,ffffff,,,
+1cf42b58,1,KT_60,Route 60 Tacoma,3,4E0963,ffffff,,,
+f5809e72,1,KT_Purdy,Purdy Connection,3,7878,ffffff,,,
+4b6b7b26,1,KT106,Fletcher Bay,3,5960ed,ffffff,,,
+b1a951a9,1,KT107,Southworth Ferry,3,066A40,ffffff,,,
+3b91c269,1,KT20,Navy Yard City,3,13a224,ffffff,,,
+ef2d092a,1,KT202,Central Kitsap FF Express,3,A92023,ffffff,,,
+be799227,1,KT212,Silverdale West,3,f70577,ffffff,,,
+1beb856c,1,KT215,Kariotis/McWilliams Express,3,B10086,ffffff,,,
+7c134bb7,1,KT215,Kariotis/McWilliams Express,3,B10086,ffffff,,,
+9d2a97f3,1,KT217,Silverdale East,3,72939a,ffffff,,,
+25d28483,1,KT219,Crossroads Shuttle,3,b2752d,ffffff,,,
+69986b11,1,KT22,Gateway Express,3,d35da3,ffffff,,,
+c2a2a6ec,1,KT221,Perry Ave,3,0D7215,ffffff,,,
+d305cd13,1,KT223,Kariotis,3,CE5504,ffffff,,,
+ad38ff57,1,KT225,East Park,3,bb3099,ffffff,,,
+22f1ba3e,1,KT229,Trenton,3,613FA6,ffffff,,,
+6cf80593,1,KT234,Bangor,3,CC9B00,ffffff,,,
+633b8d6c,1,KT235,Silverdale Old Town,3,0D7215,ffffff,,,
+a53461d0,1,KT237,Fairgrounds Shuttle,3,2eaeb7,ffffff,,,
+8788b3d5,1,KT24,Olympic College,3,a41b4a,ffffff,,,
+b2b5c354,1,KT26,Bay Vista,3,e1790a,ffffff,,,
+09326a46,1,KT301,N Kitsap FF Express,3,066A40,ffffff,,,
+652f51c1,1,KT302,Kingston Suqaumish Fast Ferry,3,CE5504,ffffff,,,
+dade71b6,1,KT307,Kingston,3,AD0101,ffffff,,,
+26d24255,1,KT332,Poulsbo / Silverdale,3,00aaed,ffffff,,,
+f58ab4d9,1,KT333,Silverdale / Bainbridge,3,0D7215,ffffff,,,
+d0a8699d,1,KT344,Poulsbo Central,3,49684,ffffff,,,
+059d725b,1,KT390,Poulsbo / Bainbridge,3,0071CA,ffffff,,,
+9b7fd4ed,1,KT4,Tremont,3,4591c2,ffffff,,,
+618bc72f,1,KT5,Sidney,3,60a24e,ffffff,,,
+8ced6ebb,1,KT8,Bethel,3,f83fea,ffffff,,,
+4986ce9f,1,KT81,Annapolis Exp Commuter,3,C9500E,ffffff,,,
+c863e254,1,KT85,Mullenix Express,3,8080,ffffff,,,
+0dfef3e7,1,KT86,Southworth Shuttle,3,5b3b80,ffffff,,,
+f0fe3b69,1,KT9,South Park,3,4a800c,ffffff,,,
+a1a95350,1,KT91,Kingston / Bainbridge,3,00bbbb,ffffff,,,
+e4ab4467,1,KT92,Kingston / Suquamish,3,803b23,ffffff,,,
+93e1dc0c,1,KT93,Manzanita,3,8080,ffffff,,,
+cbf44a6a,1,KT94,Agate Point,3,448038,ffffff,,,
+7e291c9e,1,KT95,Battle Point,3,6d2f80,ffffff,,,
+21340627,1,KT96,Sunrise,3,803a66,ffffff,,,
+2713ad14,1,KT97,Crystal Springs,3,7c8076,ffffff,,,
+a73bbc70,1,KT98,Fort Ward,3,39802a,ffffff,,,
+044e6aec,1,KT99,Bill Point,3,80471c,ffffff,,,
+f09e3012,1,KT_Annapolis,Annapolis to Bremerton Foot Ferry,4,007DBD,ffffff,,,
+97bdbd4c,1,KT_Bremerton,Fast Ferry,4,6e6eff,ffffff,,,
+94f23b4b,1,KT_Kingston,Fast Ferry,4,CE5504,ffffff,,,
+213ab30d,1,KT_PortOrchard,Port Orchard - Bremerton Ferry,4,007DBD,ffffff,,,
+bb27165f,1,KT_Southworth,Fast Ferry,4,007DBD,ffffff,,,
+3e616ab2,1,WSF2100,Bainbridge to Seattle,4,0D7215,ffffff,,,
+b04779a2,1,WSF2100,Seattle to Bainbridge,4,0D7215,ffffff,,,
+c814ff9e,1,WSF2101,Bremerton to Seattle,4,0D7215,ffffff,,,
+cf2d7f19,1,WSF2101,Seattle to Bremerton,4,0D7215,ffffff,,,
+919eab0d,1,WSF2102,Kingston to Edmonds,4,0D7215,ffffff,,,
+41b4230a,1,WSF2102,Edmonds to Kingston,4,0D7215,ffffff,,,
+62e4b574,1,WSF2103,Clinton to Mukilteo,4,0D7215,ffffff,,,
+773e9c22,1,WSF2103,Mukilteo to Clinton,4,0D7215,ffffff,,,
+fdec6e9e,1,WSF2104,Southworth to Fauntleroy,4,0D7215,ffffff,,,
+e6a8c0bc,1,WSF2104,Fauntleroy to Southworth,4,0D7215,ffffff,,,
+2dd95e0f,1,WSF2105,Vashon to Fauntleroy,4,0D7215,ffffff,,,
+71e44555,1,WSF2105,Fauntleroy to Vashon,4,0D7215,ffffff,,,
+a036a972,1,WSF2106,Point Defiance to Tahlequah,4,0D7215,ffffff,,,
+2771ce01,1,WSF2106,Tahlequah to Point Defiance,4,0D7215,ffffff,,,
+8f7dde3e,1,WSF2107,Vashon to Southworth,4,0D7215,ffffff,,,
+961fa992,1,ST_Link_1,1 Line,1,3fae2a,ffffff,,,
+edb59098,1,ST_Link_2,2 Line,1,008fbe,ffffff,,,
+a100f6d5,1,ST_Link_3,3 Line,1,e51a92,ffffff,,,
+d41e3912,1,ST_Link_4,4 Line,1,9f26b5,ffffff,,,
+c5ad7b63,1,ST_Link_T,T Line,1,f38b00,ffffff,,,
+d0c48cae,1,ST_Sounder_N,N Line,2,7f96b6,ffffff,,,
+acaa2738,1,ST_Sounder_S,S Line,2,7f96b6,ffffff,,,
+67c77c59,1,ST512,OWL Everett - Seattle,3,002e6d,ffffff,,,
+53d32b0e,1,ST513,OWL Everett - Seattle,3,002e6d,ffffff,,,
+df258712,1,ST534,Woodinville-Bellevue,3,002e6d,ffffff,,,
+6e99ffed,1,ST542,Redmond - University District,3,002e6d,ffffff,,,
+d5583f10,1,ST567,Auburn - Bellevue,3,002e6d,ffffff,,,
+c0b530d2,1,ST574,OWL Lakewood - SeaTac,3,002e6d,ffffff,,,
+57cf3319,1,ST577,Early AM Federal Way-Seattle,3,002e6d,ffffff,,,
+a413841d,1,ST578,Federal Way - Fife,3,002e6d,ffffff,,,
+a7255f38,1,ST580,South Hill to Puyallup,3,002e6d,ffffff,,,
+13321ce6,1,ST586,Tacoma - U. District,3,002E6D,ffffff,,,
+b88e6505,1,ST590,Early AM Tacoma-Seattle,3,002e6d,ffffff,,,
+31ca8baa,1,ST592,(Off Peak) DuPont - Tacoma,3,002e6d,ffffff,,,
+a6fee733,1,ST594,Lakewood - Seattle,3,002e6d,ffffff,,,
+83c1092b,1,ST596,Bonney Lake - Sumner,3,002e6d,ffffff,,,
+858586eb,1,ST_Stride_S1,S1 Line,5,edaa00,ffffff,,,
+d06fcd19,1,ST_Stride_S2,S2 Line,5,edaa00,ffffff,,,
+604f7a45,1,ST_Stride_S3,S3 Line,5,edaa00,ffffff,,,
+41580788,1,ET10,N to Everett Station | S to Airport Rd.,3,A92023,ffffff,,,
+2ef05dd5,1,ET11,STC \ Mariner P&R,3,A92023,ffffff,,,
+f053058e,1,ET12,Casino Connector,3,A92023,ffffff,,,
+e46200aa,1,ET14,E Paine Field | E to Eastmont Station,3,A92023,ffffff,,,
+1dccf7aa,1,ET17,Colby Connector,3,A92023,ffffff,,,
+c76e3d5e,1,ET18,W to Mukilteo - E to Everett Station,3,A92023,ffffff,,,
+7be46287,1,ET2,S to Mariner P&R / N to Mall Station,3,A92023,ffffff,,,
+6c44a3c9,1,ET27,Mall \ Murphy's Corner,3,A92023,ffffff,,,
+da8e95b3,1,ET29,Route 29,3,A92023,ffffff,,,
+02c34c5a,1,ET3,S to STC - N to Everett Station,3,A92023,ffffff,,,
+19e9415f,1,ET4,S to Downtown - N to College Station,3,A92023,ffffff,,,
+158d5d6b,1,ET6,W to Waterfront | E to Riverfront,3,A92023,ffffff,,,
+6d8dc08c,1,ET7,S to Mall Station - N to College Station,3,A92023,ffffff,,,
+c3d8f70e,1,ET70,East to Boeing / West to Mukilteo,3,A92023,ffffff,,,
+421eaf8d,1,ET8,S to STC - N to Everett Station,3,A92023,ffffff,,,
+c62b416c,1,PCF_Anderson_Ketron,PCF_Anderson_Ketron,4,C9500E,ffffff,,,
+cfd369dd,1,PCF_Steilacoom_Ketron,PCF_Steilacoom_Ketron,4,613FA6,ffffff,,,
+f088ee1b,1,PCF_Steilacoom-Anderson,PCF_Steilacoom-Anderson,4,007DBD,ffffff,,,
+202ea615,1,2,BRT-2,3,b10086,ffffff,,,
+702,1,Swift Green,Seaway - Canyon Park,3,0070c0,ffffff,47,Seaway - Canyon Park,

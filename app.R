@@ -51,7 +51,7 @@ au.bins <- c(0, 2, 18, 30, 45, 85, 5000)
 
 # 2050 Transit Route Summary ----------------------------------------------------
 
-gtfs.2050.url <- 'Y://2022 RTP//Future Transit Network//newest//2050//model_import//revised_routes_new_stop_ids//merged'
+gtfs.2050.url <- here('gtfs//2050//')
 
 routes <- as_tibble(fread(here(gtfs.2050.url,'routes.txt'))) %>%
     mutate(Typology = case_when(
