@@ -103,22 +103,26 @@ psrc.taz <- st_read(here('data', 'taz_data.shp')) %>% st_transform(wgs84)
 transit.supportive.zones <- psrc.taz %>% select(taz, AUDen50) %>% 
     st_transform(spn) %>%
     filter(AUDen50>=min.transit.density) %>%
-    mutate(`Transit Supportive Density`="Yes") %>%
-    select(`Transit Supportive Density`) %>%
-    st_union() %>%
+    #mutate(`Transit Supportive Density`="Yes") %>%
+    #select(`Transit Supportive Density`) %>%
+    #st_union() %>%
     st_transform(wgs84) %>%
-    st_sf() %>%
-    mutate(`Transit Supportive Density`="Yes")
+    mutate(AUDen50 = round(AUDen50,0)) %>%
+    rename(`Activity Units` = AUDen50)
+    #st_sf() %>%
+    #mutate(`Transit Supportive Density`="Yes")
 
 hct.supportive.zones <- psrc.taz %>% select(taz, AUDen50) %>% 
     st_transform(spn) %>%
     filter(AUDen50>=min.hct.density) %>%
-    mutate(`High Capacity Transit Supportive Density`="Yes") %>%
-    select(`High Capacity Transit Supportive Density`) %>%
-    st_union() %>%
+    #mutate(`High Capacity Transit Supportive Density`="Yes") %>%
+    #select(`High Capacity Transit Supportive Density`) %>%
+    #st_union() %>%
     st_transform(wgs84) %>%
-    st_sf() %>%
-    mutate(`High Capacity Transit Supportive Density`="Yes")
+    mutate(AUDen50 = round(AUDen50,0)) %>%
+    rename(`Activity Units` = AUDen50)
+    #st_sf() %>%
+    #mutate(`High Capacity Transit Supportive Density`="Yes")
     
 
 # PSRC Colors -------------------------------------------------------------
@@ -130,6 +134,9 @@ transit.pal <- colorFactor(
 # Functions ---------------------------------------------------------------
 
 create.map <- function() {
+    
+    hct.labels <- paste0("Activity Units per Acre: ", prettyNum(round(hct.supportive.zones$`Activity Units`, 0), big.mark = ",")) %>% lapply(htmltools::HTML)
+    nonhct.labels <- paste0("Activity Units per Acre: ", prettyNum(round(transit.supportive.zones$`Activity Units`, 0), big.mark = ",")) %>% lapply(htmltools::HTML)
     
     m <- leaflet() %>% 
         addProviderTiles(providers$CartoDB.Positron) %>%
@@ -170,6 +177,17 @@ create.map <- function() {
                     weight = 0,
                     color = "blue",
                     dashArray = "1",
+                    highlight = highlightOptions(
+                        weight =5,
+                        color = "76787A",
+                        dashArray ="",
+                        fillOpacity = 0.7,
+                        bringToFront = TRUE),
+                    label = hct.labels,
+                    labelOptions = labelOptions(
+                        style = list("font-weight" = "normal", padding = "3px 8px"),
+                        textsize = "15px",
+                        direction = "auto"),
                     group = "High Capacity Transit Density") %>%
         
         addPolylines(data = hct.routes.lyr,
@@ -185,6 +203,17 @@ create.map <- function() {
                     weight = 0,
                     color = "cornflowerblue",
                     dashArray = "1",
+                    highlight = highlightOptions(
+                        weight =5,
+                        color = "76787A",
+                        dashArray ="",
+                        fillOpacity = 0.7,
+                        bringToFront = TRUE),
+                    label = nonhct.labels,
+                    labelOptions = labelOptions(
+                        style = list("font-weight" = "normal", padding = "3px 8px"),
+                        textsize = "15px",
+                        direction = "auto"),
                     group = "Local & Express Bus Density") %>%
         
         addPolylines(data = bus.routes.lyr,
