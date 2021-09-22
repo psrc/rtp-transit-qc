@@ -17,7 +17,7 @@ min.transit.density <- 15
 min.hct.density <- 40
 
 hct.order <- c("BRT - Programmed", "BRT - Unprogrammed",
-               "Auto Ferry", "Passenger Only Ferry",
+               "Ferry", "Passenger Only Ferry",
                "Light Rail", "Streetcar", "Monorail",
                "Commuter Rail",
                "Bus")
@@ -58,7 +58,7 @@ routes <- as_tibble(fread(here(gtfs.2050.url,'routes.txt'))) %>%
         route_id %in% brt.constrained ~ "BRT - Programmed",
         route_id %in% brt.unconstrained ~ "BRT - Unprogrammed",
         route_id %in% pof.constrained ~ "Passenger Only Ferry",
-        route_short_name %in% ferry.constrained ~ "Auto Ferry",
+        route_short_name %in% ferry.constrained ~ "Ferry",
         route_id %in% srt.constrained ~ "Streetcar",
         route_id %in% crt.constrained ~ "Commuter Rail",
         route_id %in% lrt.constrained ~ "Light Rail",
@@ -103,33 +103,24 @@ psrc.taz <- st_read(here('data', 'taz_data.shp')) %>% st_transform(wgs84)
 transit.supportive.zones <- psrc.taz %>% select(taz, AUDen50) %>% 
     st_transform(spn) %>%
     filter(AUDen50>=min.transit.density) %>%
-    #mutate(`Transit Supportive Density`="Yes") %>%
-    #select(`Transit Supportive Density`) %>%
-    #st_union() %>%
     st_transform(wgs84) %>%
     mutate(AUDen50 = round(AUDen50,0)) %>%
     rename(`Activity Units` = AUDen50)
-    #st_sf() %>%
-    #mutate(`Transit Supportive Density`="Yes")
 
 hct.supportive.zones <- psrc.taz %>% select(taz, AUDen50) %>% 
     st_transform(spn) %>%
     filter(AUDen50>=min.hct.density) %>%
-    #mutate(`High Capacity Transit Supportive Density`="Yes") %>%
-    #select(`High Capacity Transit Supportive Density`) %>%
-    #st_union() %>%
     st_transform(wgs84) %>%
     mutate(AUDen50 = round(AUDen50,0)) %>%
     rename(`Activity Units` = AUDen50)
-    #st_sf() %>%
-    #mutate(`High Capacity Transit Supportive Density`="Yes")
+
     
 
 # PSRC Colors -------------------------------------------------------------
 
 transit.pal <- colorFactor(
     palette = c("#91268F", "#C388C2", "#73CFCB", "#00A7A0", "#F05A28", "#F4835E", "#F7A489", "#8CC63E", "#4C4C4C"),
-    levels = c("BRT - Programmed", "BRT - Unprogrammed", "Auto Ferry", "Passenger Only Ferry", "Light Rail", "Streetcar", "Monorail", "Commuter Rail",  "Bus" ))
+    levels = c("BRT - Programmed", "BRT - Unprogrammed", "Ferry", "Passenger Only Ferry", "Light Rail", "Streetcar", "Monorail", "Commuter Rail",  "Bus" ))
 
 # Functions ---------------------------------------------------------------
 
@@ -304,7 +295,7 @@ server <- function(input, output) {
     output$ferryBox <- renderInfoBox({
         
         infoBox(
-            "Ferries", HTML(paste0(pof.routes, " Passenger-Only Routes", br(), ferry.routes, " Auto Ferry Routes")), icon = icon("ship"),
+            "Ferries", HTML(paste0(pof.routes, " Passenger-Only Routes", br(), ferry.routes, " Ferry Routes")), icon = icon("ship"),
             color = "blue", fill=TRUE
         )
     })
