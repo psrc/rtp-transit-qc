@@ -297,7 +297,7 @@ server <- function(input, output) {
     output$busBox <- renderInfoBox({
         
         infoBox(
-            "Bus", HTML(paste0(br(), veryfreq.routes, " Very Frequent Bus Routes", 
+            "Bus", HTML(paste0(veryfreq.routes, " Very Frequent Bus Routes", 
                                br(), freq.routes, " Frequent Bus Routes",
                                br(), modfreq.routes, " Moderately Frequent Bus Routes",
                                br(), lowfreq.routes, " Low Frequency Bus Routes")), icon = icon("bus"),
