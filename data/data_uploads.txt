@@ -2,4 +2,6 @@ Data for the dashboard must be copied from a local source to folder on the shiny
 The following can be run from the host machine to copy to the server (check the fodler locations):
 
 scp -r X:/DSA/shiny-uploads/rtp-transit-qc/data/*  shiny@aws-linux:~/apps/rtp-transit-qc/data/
+scp -r X:/DSA/shiny-uploads/rtp-transit-qc/gtfs/*  shiny@aws-linux:~/apps/rtp-transit-qc/gtfs/
+
 
