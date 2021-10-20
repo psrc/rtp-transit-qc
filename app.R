@@ -16,11 +16,15 @@ library(leaflet)
 min.transit.density <- 15
 min.hct.density <- 40
 
-hct.order <- c("BRT - Programmed", "BRT - Unprogrammed",
+hct.order <- c("BRT", "BRT - Unprogrammed",
                "Ferry", "Passenger Only Ferry",
                "Light Rail", "Streetcar", "Monorail",
                "Commuter Rail",
-               "Bus")
+               "Very Frequent Route", "Frequent Route",
+               "Moderate Frequency Route", "Low Frequency Route")
+
+bus.modes <- c("Very Frequent Route", "Frequent Route",
+               "Moderate Frequency Route", "Low Frequency Route")
 
 wgs84 <- 4326
 spn <- 2285 
@@ -53,20 +57,8 @@ au.bins <- c(0, 2, 18, 30, 45, 85, 5000)
 
 gtfs.2050.url <- here('gtfs//2050//')
 
-routes <- as_tibble(fread(here(gtfs.2050.url,'routes.txt'))) %>%
-    mutate(Typology = case_when(
-        route_id %in% brt.constrained ~ "BRT - Programmed",
-        route_id %in% brt.unconstrained ~ "BRT - Unprogrammed",
-        route_id %in% pof.constrained ~ "Passenger Only Ferry",
-        route_short_name %in% ferry.constrained ~ "Ferry",
-        route_id %in% srt.constrained ~ "Streetcar",
-        route_id %in% crt.constrained ~ "Commuter Rail",
-        route_id %in% lrt.constrained ~ "Light Rail",
-        route_id %in% monorail.constrained ~ "Monorail")) %>%
-    select(route_id, route_short_name, route_long_name, route_type, Typology) %>%
-    mutate(Typology = replace_na(Typology, "Bus"))
-
-routes$Typology <- factor(routes$Typology, levels=hct.order)
+routes <- as_tibble(fread(here(gtfs.2050.url,'fall-2050-routes-summary.csv'))) 
+routes$typology <- factor(routes$typology, levels=hct.order)
 
 brt.constrained.routes <- routes %>% filter(route_id%in%brt.constrained) %>% select(route_short_name) %>% pull() %>% length()
 brt.unconstrained.routes <- routes %>% filter(route_id%in%brt.unconstrained) %>% select(route_short_name) %>% pull() %>% length()
@@ -84,7 +76,11 @@ crt.routes <- routes %>% filter(route_id%in%crt.constrained) %>% select(route_sh
 
 lrt.routes <- routes %>% filter(route_id%in%lrt.constrained) %>% select(route_short_name) %>% pull() %>% length()
 
-bus.routes <- routes %>% filter(Typology=="Bus") %>% select(route_short_name) %>% pull() %>% length()
+veryfreq.routes <- routes %>% filter(typology=="Very Frequent Route") %>% select(route_short_name) %>% pull() %>% length()
+freq.routes <- routes %>% filter(typology=="Frequent Route") %>% select(route_short_name) %>% pull() %>% length()
+modfreq.routes <- routes %>% filter(typology=="Moderate Frequency Route") %>% select(route_short_name) %>% pull() %>% length()
+lowfreq.routes <- routes %>% filter(typology=="Low Frequency Route") %>% select(route_short_name) %>% pull() %>% length()
+bus.routes <- veryfreq.routes+freq.routes+modfreq.routes+lowfreq.routes
 
 # Shapefiles --------------------------------------------------------------
 
@@ -95,8 +91,8 @@ transit.routes.lyr <- st_read(here('data', 'directions_2050.shp')) %>%
 
 transit.routes.lyr <- left_join(transit.routes.lyr, routes, by=c("line_id"="route_id"))
 
-hct.routes.lyr <- transit.routes.lyr %>% filter(!(Typology=="Bus"))
-bus.routes.lyr <- transit.routes.lyr %>% filter(Typology=="Bus")
+hct.routes.lyr <- transit.routes.lyr %>% filter(!(typology%in%bus.modes))
+bus.routes.lyr <- transit.routes.lyr %>% filter(typology%in%bus.modes)
 
 psrc.taz <- st_read(here('data', 'taz_data.shp')) %>% st_transform(wgs84)
 
@@ -114,13 +110,11 @@ hct.supportive.zones <- psrc.taz %>% select(taz, AUDen50) %>%
     mutate(AUDen50 = round(AUDen50,0)) %>%
     rename(`Activity Units` = AUDen50)
 
-    
-
 # PSRC Colors -------------------------------------------------------------
 
 transit.pal <- colorFactor(
-    palette = c("#91268F", "#C388C2", "#73CFCB", "#00A7A0", "#F05A28", "#F4835E", "#F7A489", "#8CC63E", "#4C4C4C"),
-    levels = c("BRT - Programmed", "BRT - Unprogrammed", "Ferry", "Passenger Only Ferry", "Light Rail", "Streetcar", "Monorail", "Commuter Rail",  "Bus" ))
+    palette = c("#91268F", "#C388C2", "#73CFCB", "#00A7A0", "#F05A28", "#F4835E", "#F7A489", "#8CC63E", "#F05A28", "#8CC63E", "#00A7A0", "#4C4C4C"),
+    levels = c("BRT", "BRT - Unprogrammed", "Ferry", "Passenger Only Ferry", "Light Rail", "Streetcar", "Monorail", "Commuter Rail",  "Very Frequent Route", "Frequent Route", "Moderate Frequency Route", "Low Frequency Route" ))
 
 # Functions ---------------------------------------------------------------
 
@@ -182,9 +176,9 @@ create.map <- function() {
                     group = "High Capacity Transit Density") %>%
         
         addPolylines(data = hct.routes.lyr,
-                     color = ~transit.pal(Typology),
+                     color = ~transit.pal(typology),
                      weight = 3,
-                     fillColor = ~transit.pal(Typology),
+                     fillColor = ~transit.pal(typology),
                      group = "High Capacity Transit Routes") %>%
         
         addPolygons(data=transit.supportive.zones,
@@ -208,19 +202,19 @@ create.map <- function() {
                     group = "Local & Express Bus Density") %>%
         
         addPolylines(data = bus.routes.lyr,
-                     color = ~transit.pal(Typology),
-                     weight = 1,
-                     fillColor = ~transit.pal(Typology),
+                     color = ~transit.pal(typology),
+                     weight = 2,
+                     fillColor = ~transit.pal(typology),
                      group = "Local & Express Bus Routes") %>%
     
         addLegend(pal = transit.pal,
-              values = hct.routes.lyr$Typology,
+              values = hct.routes.lyr$typology,
               group = "High Capacity Transit Routes",
               position = "bottomleft",
               title = "High Capacity Transit Mode") %>%
         
-        addLegend(colors=c("#4C4C4C"),
-                  labels=c("Bus"),
+        addLegend(pal = transit.pal,
+                  values = bus.routes.lyr$typology,
                   group = "Local & Express Bus Routes",
                   position = "bottomleft",
                   title = "Local & Express Bus") %>%
