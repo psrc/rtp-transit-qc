@@ -47,3 +47,5 @@ vignettes/*.pdf
 *.shp
 *.shp.xml
 *.shx
+*.png
+*.jpg
