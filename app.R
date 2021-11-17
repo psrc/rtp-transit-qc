@@ -119,7 +119,7 @@ transit.routes.lyr.2018 <- st_read(here('data', 'fall-2018-routes.shp')) %>%
 
 transit.routes.lyr.2018 <- left_join(transit.routes.lyr.2018, routes.2018, by=c("line_id"="route_id"))
 
-hct.routes.lyr.2018 <- transit.routes.lyr.2018 %>% filter(!(typology%in%bus.modes))
+hct.routes.lyr.2018 <- transit.routes.lyr.2018 %>% filter(!(typology%in%bus.modes)) %>% mutate(agency_id=as.character(agency_id))
 bus.routes.lyr.2018 <- transit.routes.lyr.2018 %>% filter(typology%in%bus.modes)
 
 transit.supportive.zones.2018 <- psrc.taz %>% select(taz, AUDen18) %>% 
@@ -144,7 +144,7 @@ transit.routes.lyr.2050 <- st_read(here('data', 'directions_2050.shp')) %>%
 
 transit.routes.lyr.2050 <- left_join(transit.routes.lyr.2050, routes.2050, by=c("line_id"="route_id"))
 
-hct.routes.lyr.2050 <- transit.routes.lyr.2050 %>% filter(!(typology%in%bus.modes))
+hct.routes.lyr.2050 <- transit.routes.lyr.2050 %>% filter(!(typology%in%bus.modes)) %>% mutate(agency_id=as.character(agency_id))
 bus.routes.lyr.2050 <- transit.routes.lyr.2050 %>% filter(typology%in%bus.modes)
 
 transit.supportive.zones.2050 <- psrc.taz %>% select(taz, AUDen50) %>% 
@@ -160,6 +160,9 @@ hct.supportive.zones.2050 <- psrc.taz %>% select(taz, AUDen50) %>%
     st_transform(wgs84) %>%
     mutate(AUDen50 = round(AUDen50,0)) %>%
     rename(`Activity Units` = AUDen50)
+
+ferry.routes.lyr <- hct.routes.lyr.2050 %>% filter(typology=="Ferry")
+hct.routes.lyr.2018 <- bind_rows(hct.routes.lyr.2018, ferry.routes.lyr)
 
 # PSRC Colors -------------------------------------------------------------
 transit.pal <- colorFactor(
@@ -180,7 +183,7 @@ create.map <- function(hct.zones, trn.zones, hct.lyr, trn.lyr) {
                                            "High Capacity Transit Routes",
                                            "Local & Express Bus Density",
                                            "Local & Express Bus Routes"),
-                         options = layersControlOptions(collapsed = TRUE)) %>%
+                         options = layersControlOptions(collapsed = FALSE)) %>%
         
         addEasyButton(easyButton(
             icon="fa-globe", title="Region",
@@ -272,13 +275,13 @@ create.map <- function(hct.zones, trn.zones, hct.lyr, trn.lyr) {
                   labels=c("Yes"),
                   group = "High Capacity Transit Density",
                   position = "bottomright",
-                  title = "More than 40 Activity Units per Acre") %>%
+                  title = "HCT Supportive Density") %>%
         
         addLegend(colors=c("cornflowerblue"),
                   labels=c("Yes"),
                   group = "Local & Express Bus Density",
                   position = "bottomright",
-                  title = "More than 15 Activity Units per Acre") %>%
+                  title = "Local Transit Supportive Density") %>%
         
         hideGroup("High Capacity Transit Routes") %>%
         hideGroup("Local & Express Bus Routes")
